@@ -4,6 +4,8 @@ import 'src/features/splash_screen/screens/splash_screen.dart';
 import 'src/features/splash_screen/screens/splash_screen2.dart';
 import 'src/features/get_started/screens/get_started.dart';
 import 'src/features/get_started/screens/get_started2.dart';
+import 'src/features/sign_in/screens/sign_in.dart';
+import 'src/features/sign_in/screens/sign_in2.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GetStarted2(),
+      home: SignIn2(),
     );
   }
 }
