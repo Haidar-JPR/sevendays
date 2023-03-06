@@ -8,10 +8,13 @@ class SplashScreen2 extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
+          // NOTE: Background Images
           Image.asset(
             'assets/images/bg.png',
             fit: BoxFit.cover,
           ),
+
+          // NOTE: Header
           Padding(
             padding: const EdgeInsets.only(bottom: 530),
             child: Row(

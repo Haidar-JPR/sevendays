@@ -10,10 +10,13 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
+            // NOTE: Swords Images
             Image.asset(
               'assets/images/swords.png',
               width: 140,
             ),
+
+            // NOTE: Header
             Text(
               'venture'.toUpperCase(),
               style: GoogleFonts.dmSerifDisplay(
