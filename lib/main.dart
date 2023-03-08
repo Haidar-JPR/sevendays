@@ -8,6 +8,8 @@ import 'src/features/sign_in/screens/sign_in.dart';
 import 'src/features/sign_in/screens/sign_in2.dart';
 import 'src/features/emty_state/screens/emty_state.dart';
 import 'src/features/emty_state/screens/emty_state2.dart';
+import 'src/features/rating/screens/rating.dart';
+import 'src/features/rating/screens/rating2.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: EmtyState2(),
+      home: Rating2(),
     );
   }
 }
