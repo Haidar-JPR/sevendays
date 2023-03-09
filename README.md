@@ -9,6 +9,7 @@ Challenge from BWA 7 Days Course
 # Day 3 --> 7 March 2023
 # Day 4 --> 8 March 2023
 # Day 5 --> 9 March 2023
+# Day 6 --> 10 March 2023
 
 This project is a starting point for a Flutter application.
 
