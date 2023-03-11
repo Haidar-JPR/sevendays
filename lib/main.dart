@@ -12,6 +12,8 @@ import 'src/features/rating/screens/rating.dart';
 import 'src/features/rating/screens/rating2.dart';
 import 'src/features/pricing/screens/pricing.dart';
 import 'src/features/pricing/screens/pricing2.dart';
+import 'src/features/random/screens/random.dart';
+import 'src/features/random/screens/random2.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Pricing2(),
+      home: RandomS2(),
     );
   }
 }
